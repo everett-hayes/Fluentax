@@ -1,0 +1,18 @@
+publico clase Ejemplo {
+
+    publico estatico vacio main(Texto[] args) {
+
+        // make two numbers
+        ent numero1 = 10;
+        ent numero2 = 25;
+
+        // print the sum
+        imprimir(numero1 + numero2);
+
+        // make a list of characters
+        letra [] nombre = {'F', 'l', 'u', 'e', 'n', 't', 'a', 'x'};
+
+        // print the list
+        imprimir(nuevo Texto(nombre));
+    }
+}
